@@ -1,0 +1,151 @@
+body{
+    background-color: rgb(209, 199, 217);
+}
+.container{
+    width: 200em;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(197, 231, 231);
+}
+.nav_title{
+    color: rgb(64, 17, 100);
+    width: 30%;
+    font-size: xx-large;
+    font-family: 'Courier New', Courier, monospace;
+}
+.breadcrumb-item{
+    width: 10%;
+}
+.row{
+    width: 100%;
+}
+.amazing{
+    height: 300px;
+    width: 400px;
+    text-align: center;
+}
+.column1{
+    text-align: center;
+    
+}
+.img1{
+    display: flex;
+    justify-content: center;
+    height: 15em;
+    width:100%;
+    background-image: url("https://scontent-lax3-1.xx.fbcdn.net/v/t39.30808-6/275728862_504311061254373_5759031865228180588_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=730e14&_nc_ohc=TjJc0p8id5gAX-8CBIA&_nc_ht=scontent-lax3-1.xx&oh=00_AfClqrMMcGS6fjqUT__aTomU_TLPNP9IA-yti3_Uh55o4Q&oe=641755A9");
+    color: aliceblue;
+    align-items:center;
+    font-size: xx-large;
+    font-family: serif;
+
+}
+.second_row{
+    width: 100%;
+}
+.third_row{
+    height: 20em;
+    display: flex;
+    flex-wrap: wrap;
+    width: 75%;
+}
+.third_col{
+    margin: 2%;
+}
+#first_col{
+    background-image: url("https://scontent-lax3-2.xx.fbcdn.net/v/t39.30808-6/329780877_709541830948588_691805771318088670_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=730e14&_nc_ohc=0ez4RPIpQk4AX_N1Nn6&_nc_ht=scontent-lax3-2.xx&oh=00_AfCy2-Wx7ieCXJhXWBBuo9v7GD8O5uHe5t51n0rE0LKN3A&oe=64178C92");
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: row-reverse;
+}
+#first_btn{
+    size: 25em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    
+    width: 60%;
+    height: 50px;
+
+}
+#third_col_2{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    
+}
+.fourth_row{
+    height: 20em;
+    display: flex;
+    flex-wrap: wrap;
+    
+    width: 75%;
+}
+.fourth_col_1{
+    background-image: url("https://scontent-lax3-2.xx.fbcdn.net/v/t39.30808-6/329780877_709541830948588_691805771318088670_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=730e14&_nc_ohc=0ez4RPIpQk4AX_N1Nn6&_nc_ht=scontent-lax3-2.xx&oh=00_AfCy2-Wx7ieCXJhXWBBuo9v7GD8O5uHe5t51n0rE0LKN3A&oe=64178C92");
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.fourth_col{
+    
+    margin: 2%;
+    background-image: url("https://s3.amazonaws.com/static.rogerebert.com/uploads/movie/movie_poster/pi-1998/large_dYkA7uqQVn8LzQFCeaAg31SUod3.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.fifth_row{
+    width: 20em;
+    height: 20em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 75%;
+}
+.fifth_col{
+    
+    margin: 2%;
+    background-image: url("https://m.media-amazon.com/images/M/MV5BMDExYzg5YjQtMzE0Yy00OWJjLThiZTctMWI5MzhjM2RmNjA4L2ltYWdlXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: row-reverse;
+}
+#second_btn{
+    size: 25em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+#third_btn{
+    size: 25em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.last_row{
+    height: 10em;
+    display: flex;
+    flex-wrap: wrap;
+    width: 90wm;
+    border: 2px solid black;
+   
+    
+}
+.last_col{
+    background-image: url("https://filmstudies2270.files.wordpress.com/2014/05/eraserhead-7.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
